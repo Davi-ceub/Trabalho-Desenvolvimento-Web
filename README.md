@@ -6,7 +6,7 @@ Projeto:
 
   Atualmente, existem cerca de 30 a 40 empresas e instituições que atuam como obtentoras (desenvolvedoras) de cultivares de soja no Brasil. No mercado ativo para a safra atual, estima-se que o produtor tenha à disposição entre 500 e 600 cultivares comerciais de soja. A complexidade dessa escolha é acentuada pela necessidade de cruzar variáveis agronômicas específicas (ciclo, biotecnologia, resistências e exigência de fertilidade) com as condições locais (região, regime hídrico e nível tecnológico). Nota-se, portanto, uma lacuna tecnológica: a ausência de uma ferramenta centralizada que conecte, de forma técnica e direta, a oferta das detentoras de genética à demanda específica de cada produtor. O valor total do mercado de sementes das cultivares de soja no Brasil está estimado em aproximadamente R$ 26,5 bilhões por safra.
 
-  O projeto consiste no desenvolvimento de um sistema mobile desenhado para atuar como um hub de inteligência agronômica entre empresas do setor e produtores rurais.
+  O projeto consiste no desenvolvimento de um sistema mobile desenhado para atuar como um hub de inteligência agronômica entre empresas do setor e produtores rurais:
 
   •	Para as Empresas: O sistema permite o cadastramento detalhado de portfólios, incluindo características de resistência a doenças e nematoides, ciclos de maturação e exigências de fertilidade. Além disso, fornece relatórios de leads qualificados, permitindo que as empresas identifiquem produtores interessados em seus materiais para prospecção comercial.
   
@@ -16,4 +16,4 @@ Projeto:
   
   Após a seleção das cultivares, pelos produtores rurais, as empresas terão acesso a um relatório, via aplicativo, indicando as informações sobre o produtor rural que selecionou a suas cultivares, para posterior contato e finalização da venda. O aplicativo também vai permitir que cada produtor rural tenha acessa ao seu histórico de seleção de cultivares a cada safra. Além disso, o aplicativo vai permitir e solicitar (via mensagens) que cada produtor rural faça a inserção da produtividade de cada cultivar após a colheita. Consideramos que essa informação será a de maior relevância para os produtores rurais que irão utilizar o aplicativo, pois esse é o parâmetro de maior relevância na escolha de uma cultivar de soja.
   
-  Resultado esperado com o desenvolvimento do projeto: desenvolver uma solução multiplataforma que otimize o processo de tomada de decisão no campo, aumente a visibilidade comercial das empresas obtentoras e promova a melhoria da produtividade da soja brasileira por meio do uso estratégico de dados e características agronômicas.
+  Resultado esperado com o desenvolvimento do projeto: desenvolver uma solução multiplataforma que otimize o processo de tomada de decisão no campo, aumente a visibilidade comercial das empresas obtentoras e promova a melhoria da produtividade da soja brasileira por meio do uso estratégico de dados e características agronômicas/cultivo.
