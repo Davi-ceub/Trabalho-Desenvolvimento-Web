@@ -9,6 +9,7 @@ Projeto:
   O projeto consiste no desenvolvimento de um sistema mobile desenhado para atuar como um hub de inteligência agronômica entre empresas do setor e produtores rurais.
 
   •	Para as Empresas: O sistema permite o cadastramento detalhado de portfólios, incluindo características de resistência a doenças e nematoides, ciclos de maturação e exigências de fertilidade. Além disso, fornece relatórios de leads qualificados, permitindo que as empresas identifiquem produtores interessados em seus materiais para prospecção comercial.
+  
   •	Para os Produtores: O aplicativo oferece um sistema de filtragem avançada baseado em necessidades reais. Ao inserir o perfil de sua área (ex: região, nível tecnológico, histórico de doenças), o usuário recebe uma lista personalizada de cultivares aptas.
   
   Após o cadastro do produtor no aplicativo, ele poderá selecionar características agronômicas (já cadastradas no sistema) que melhor atende as suas necessidades, como por exemplo: soja convencional ou transgênica; ciclo (precoce/médio/tardio); comportamento (tolerância e/ou resistência) em relação a doenças fúngicas; comportamento (tolerância e/ou resistência) em relação a nematoides; exigência de fertilidade (baixa/média/alta); E outras características: região de cultivo (cerrado ou sul do país); cultivo em área de sequeiro ou irrigada; e o nível tecnológico (médio ou alto).
