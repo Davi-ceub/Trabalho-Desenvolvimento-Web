@@ -33,16 +33,16 @@ id_cliente int,
 id_empresa int,
 id_produtos int);
 
-create table qualidade(
+create table caracteristicas_cultivar(
 id int primary key not null auto_increment,
 clima varchar(75) not null,
 solo varchar(75) not null,
 resistencia varchar(75) not null); 
 
 ALTER TABLE produto
-ADD CONSTRAINT fk_produto_qualidade
-FOREIGN KEY (id_qualidade)
-REFERENCES qualidade(id);
+ADD CONSTRAINT fk_produto_caracteristicas_cultivar
+FOREIGN KEY (id_caracteristicas_cultivar)
+REFERENCES caracteristicas_cultivar(id);
 
 ALTER TABLE empresa
 ADD CONSTRAINT fk_empresa_produto
