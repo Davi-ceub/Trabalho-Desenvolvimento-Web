@@ -16,7 +16,7 @@ nome varchar(100) not null,
 descricao varchar(250) not null,
 preco decimal(9,2) not null,
 quantidade varchar(5) not null,
-id_qualidade int);
+id_caracteristicas int);
 
 create table empresa(
 id int primary key not null auto_increment,
