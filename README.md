@@ -2,6 +2,8 @@
 
 Projeto: AgroSeed
 
+Integrantes: Carlos Nascimento; Davi Castilho; Luís Vasconcelos; Marcos Soares.
+
   Os produtores de soja do Brasil precisão todo ano selecionar cultivares de soja para realizar o plantio das suas áreas. Com isso, cada produtor seleciona as cultivares das seguintes maneiras: da sua própria experiência, em relação as cultivares que mais produziram nas safras anteriores; em conversa com outros produtores; participação de dias de campo e outros eventos; contato direto com os vendedores das empresas que produzem e/ou vendem as cultivares de soja.
 
   Atualmente, existem cerca de 30 a 40 empresas e instituições que atuam como obtentoras (desenvolvedoras) de cultivares de soja no Brasil. No mercado ativo para a safra atual, estima-se que o produtor tenha à disposição entre 500 e 600 cultivares comerciais de soja. A complexidade dessa escolha é acentuada pela necessidade de cruzar variáveis agronômicas específicas (ciclo, biotecnologia, resistências e exigência de fertilidade) com as condições locais (região, regime hídrico e nível tecnológico). Nota-se, portanto, uma lacuna tecnológica: a ausência de uma ferramenta centralizada que conecte, de forma técnica e direta, a oferta das detentoras de genética à demanda específica de cada produtor. O valor total do mercado de sementes das cultivares de soja no Brasil está estimado em aproximadamente R$ 26,5 bilhões por safra.
