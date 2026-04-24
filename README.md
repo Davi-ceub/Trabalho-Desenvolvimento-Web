@@ -19,3 +19,22 @@ Integrantes: Carlos Nascimento; Davi Castilho; Luís Vasconcelos; Marcos Soares.
   Após a seleção das cultivares, pelos produtores rurais, as empresas terão acesso a um relatório, via aplicativo, indicando as informações sobre o produtor rural que selecionou a suas cultivares, para posterior contato e finalização da venda. O aplicativo também vai permitir que cada produtor rural tenha acessa ao seu histórico de seleção de cultivares a cada safra. Além disso, o aplicativo vai permitir e solicitar (via mensagens) que cada produtor rural faça a inserção da produtividade de cada cultivar após a colheita. Consideramos que essa informação será a de maior relevância para os produtores rurais que irão utilizar o aplicativo, pois esse é o parâmetro de maior relevância na escolha de uma cultivar de soja.
   
   Resultado esperado com o desenvolvimento do projeto: desenvolver uma solução multiplataforma que otimize o processo de tomada de decisão no campo, aumente a visibilidade comercial das empresas obtentoras e promova a melhoria da produtividade da soja brasileira por meio do uso estratégico de dados e características agronômicas/cultivo.
+
+# AgroSeed API
+
+## Funcionalidades
+- CRUD de Clientes
+- CRUD de Produtos
+- Registro de Vendas
+- Controle de Estoque
+- Relatórios
+
+## Tecnologias
+- Django
+- Django REST Framework
+- SQLite
+
+## Como rodar
+```bash
+python manage.py migrate
+python manage.py runserver
