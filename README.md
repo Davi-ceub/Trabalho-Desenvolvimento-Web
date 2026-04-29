@@ -20,6 +20,12 @@ Integrantes: Carlos Nascimento; Davi Castilho; Luís Vasconcelos; Marcos Soares.
   
   Resultado esperado com o desenvolvimento do projeto: desenvolver uma solução multiplataforma que otimize o processo de tomada de decisão no campo, aumente a visibilidade comercial das empresas obtentoras e promova a melhoria da produtividade da soja brasileira por meio do uso estratégico de dados e características agronômicas/cultivo.
 
+ENTREGA 2 
+Baixar os arquivos das pastas agroseed e core e o arquivo manage.py
+ativar o interpretador venv
+iniciar o servidor 
+utilizar as páginas html
+
 # AgroSeed API
 
 ## Funcionalidades
@@ -27,7 +33,6 @@ Integrantes: Carlos Nascimento; Davi Castilho; Luís Vasconcelos; Marcos Soares.
 - CRUD de Produtos
 - Registro de Vendas
 - Controle de Estoque
-- Relatórios
 
 ## Tecnologias
 - Django
