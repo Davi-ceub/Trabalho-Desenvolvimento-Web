@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <h2>Editar Cliente</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        <label>Nome:</label>
+        <input type="text" name="nome" value="{{ cliente.nome }}" required>
+        
+        <label>CPF:</label>
+        <input type="text" name="cpf" value="{{ cliente.cpf }}" required>
+        
+        <label>Telefone:</label>
+        <input type="text" name="telefone" value="{{ cliente.telefone }}">
+        
+        <label>Endereço:</label>
+        <input type="text" name="endereco" value="{{ cliente.endereco }}">
+        
+        <div style="margin-top: 20px;">
+            <button type="submit">Salvar Alterações</button>
+            <a href="{% url 'clientes' %}" style="margin-left: 15px; text-decoration: none; color: gray;">Cancelar</a>
+        </div>
+    </form>
+</div>
+{% endblock %}
