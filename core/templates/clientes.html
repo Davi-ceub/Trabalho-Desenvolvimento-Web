@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <h2>Cadastrar Cliente</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="text" name="cpf" placeholder="CPF" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+</div>
+
+<div class="card">
+    <h2>Lista de Clientes</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+        </tr>
+        {% for c in clientes %}
+        <tr>
+            <td>{{ c.nome }}</td>
+            <td>{{ c.cpf }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
