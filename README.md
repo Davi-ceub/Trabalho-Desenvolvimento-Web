@@ -21,10 +21,7 @@ Integrantes: Carlos Nascimento; Davi Castilho; Luís Vasconcelos; Marcos Soares.
   Resultado esperado com o desenvolvimento do projeto: desenvolver uma solução multiplataforma que otimize o processo de tomada de decisão no campo, aumente a visibilidade comercial das empresas obtentoras e promova a melhoria da produtividade da soja brasileira por meio do uso estratégico de dados e características agronômicas/cultivo.
 
 ENTREGA 2 
-Baixar os arquivos das pastas agroseed e core e o arquivo manage.py
-ativar o interpretador venv
-iniciar o servidor 
-utilizar as páginas html
+Baixar a pasta agrossed.zip e descompacta-la, usar ela no vscode, ativar o interpretador venv e rodar o servidor para acessar as páginas html
 
 # AgroSeed API
 
