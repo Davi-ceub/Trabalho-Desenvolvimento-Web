@@ -20,7 +20,7 @@ Integrantes: Carlos Nascimento; Davi Castilho; Luís Vasconcelos; Marcos Soares.
   
   Resultado esperado com o desenvolvimento do projeto: desenvolver uma solução multiplataforma que otimize o processo de tomada de decisão no campo, aumente a visibilidade comercial das empresas obtentoras e promova a melhoria da produtividade da soja brasileira por meio do uso estratégico de dados e características agronômicas/cultivo.
 
-ENTREGA 2 
+ENTREGA 2 : POSTEI TAMBÉM AS PASTAS SEPARADAS PARA VIZUALIZAR OS CÒDIGOS AQUI MESMO NO GITHUB E TEM O ARQUIVO agroseed.zip QUE CONTÉM o TRABALHO TODO PARA ABRIR NO VSCODE
 Baixar a pasta agrossed.zip e descompacta-la, abrir ela no vscode, ativar o interpretador venv, pip install django, pip install mysqlclient, pip install python-dotenv
 criar database agronomia vazia no mysql workbench
 No espaço de senha no settings.py colocar a sua senha local do servidor do workbench 
