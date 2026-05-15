@@ -37,6 +37,8 @@ rodar o servidor para acessar as páginas html
 - Django
 - Django REST Framework
 - SQLite
+- 
+<img width="1428" height="496" alt="Captura de Tela (2)" src="https://github.com/user-attachments/assets/84b3e3d8-7fd0-4449-904b-fd06dd934320" />
 
 ## Como rodar
 ```bash
@@ -47,3 +49,6 @@ pip install mysqlclient
 pip install python-dotenv
 pip install djangorestframework
 python manage.py runserver
+
+
+
