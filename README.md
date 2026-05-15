@@ -40,5 +40,10 @@ rodar o servidor para acessar as páginas html
 
 ## Como rodar
 ```bash
-python manage.py migrate
+python -m venv .venv
+.venv\Script\activate.bat
+pip install django
+pip install mysqlclient
+pip install python-dotenv
+pip install djangorestframework
 python manage.py runserver
