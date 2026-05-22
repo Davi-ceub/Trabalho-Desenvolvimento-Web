@@ -48,6 +48,7 @@ pip install django
 pip install mysqlclient
 pip install python-dotenv
 pip install djangorestframework
+pip install djangorestframework-simplejwt
 python manage.py runserver
 
 
