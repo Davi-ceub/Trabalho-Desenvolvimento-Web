@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <h2>Registrar Venda</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        
+        <select name="cliente">
+            {% for c in clientes %}
+            <option value="{{ c.id }}">{{ c.nome }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="produto">
+            {% for p in produtos %}
+            <option value="{{ p.id }}">{{ p.nome }}</option>
+            {% endfor %}
+        </select>
+
+            <select name="empresa">
+                {% for e in empresas %}
+                <option value="{{ e.id }}">{{ e.nome }}</option>
+                {% endfor %}
+            </select>
+
+        <button type="submit">Vender</button>
+    </form>
+</div>
+
+<div class="card">
+    <h2>Histórico de Vendas</h2>
+    <table>
+        <tr>
+            <th>Cliente</th>
+            <th>Produto</th>
+            <th>Empresa</th>
+            <th>Valor R$</th>
+        </tr>
+        {% for v in vendas %}
+        <tr>
+            <td>{{ v.cliente.nome }}</td>
+            <td>{{ v.produto.nome }}</td>
+            <td>{{ v.empresa.nome }}</td>
+            <td>{{ v.valor_total }} R$</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

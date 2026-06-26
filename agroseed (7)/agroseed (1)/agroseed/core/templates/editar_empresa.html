@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <h2>Editar Empresa</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+            <label>Nome da Empresa:</label>
+            <input type="text" name="nome" value="{{ empresa.nome }}" required>
+
+            <label>CNPJ:</label>
+            <input type="text" name="cnpj" value="{{ empresa.cnpj }}" required>
+
+            <label>Endereço:</label>
+            <input type="text" name="endereco" value="{{ empresa.endereco }}">
+
+            <div style="margin-top: 15px;">
+                <button type="submit" style="background-color: #28a745; color: white; padding: 10px; border: none; cursor: pointer;">
+                    Atualizar Dados
+                </button>
+                <a href="javascript:history.back()" style="margin-left: 15px; text-decoration: none; color: #666;">
+                    Cancelar
+                </a>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

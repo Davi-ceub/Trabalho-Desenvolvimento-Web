@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <h2>Cadastrar Empresa</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="text" name="cnpj" placeholder="CNPJ" required>
+            <input type="text" name="endereco" placeholder="Endereço Completo">
+            
+            <button type="submit" style="background-color: #28a745; color: white; padding: 10px; border: none; cursor: pointer;">
+                Salvar Empresa
+            </button>
+        </div>
+    </form>
+</div>
+
+<div class="card" style="margin-top: 20px;">
+    <h2>Empresas Registradas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CNPJ</th>
+                <th>Endereço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for e in empresa %}
+    <tr>
+        <td>{{ e.nome }}</td>
+        <td>{{ e.cnpj }}</td>
+        <td>{{ e.endereco }}</td>
+        <td>
+            <a href="{% url 'editar_empresa' e.id %}">Editar</a>
+            <a href="{% url 'deletar_empresa' e.id %}" style="color: red; margin-left: 10px;" onclick="return confirm('Excluir?')">Deletar</a>
+        </td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="4" style="text-align: center;">Nenhuma empresa cadastrada.</td>
+    </tr>
+    {% endfor %}
+</tbody>
+    </table>
+</div>
+{% endblock %}
